@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-06-22T11:50:50-07:00"
+      "last_modified": "2022-06-22T12:16:04-07:00"
     },
     {
       "path": "index.html",
       "title": "Social Accuracy Research",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-06-22T11:50:51-07:00"
+      "last_modified": "2022-06-22T12:16:04-07:00"
     }
   ],
   "collections": ["posts/posts.json"]

@@ -6,7 +6,7 @@ description: |
 author:
   - name: Jeremy Biesanz 
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
+    affiliation: University of British Columbia
     affiliation_url: https://example.com/spacelysprokets
 date: 06-22-2022
 output:
