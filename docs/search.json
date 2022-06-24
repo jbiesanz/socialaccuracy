@@ -1,19 +1,56 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "path": "blog.html",
+      "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-06-22T12:16:04-07:00"
+      "last_modified": "2022-06-23T17:20:02-07:00"
     },
     {
       "path": "index.html",
       "title": "Social Accuracy Research",
       "author": [],
+      "contents": "\n\n          \n          \n          Jeremy Biesanz\n          \n          \n          Home\n          Blog\n          Team\n          Research\n          Publications\n          Social Accuracy Model\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Social Accuracy Research\n            \n            \n              \n                \n                    \n                      \n                        Twitter\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Welcome\n            Broadly, work in the Social Accuracy Lab examines the\n            process of interpersonal impressions, with a particular\n            emphasis on impressions of stable and global personality\n            traits about both others and the self. Utilizing the Social\n            Accuracy Model (SAM) we are able to explore overall levels\n            and variability in accuracy and bias in impressions, as well\n            as examine various factors that impact these perceptual\n            tendencies\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Social Accuracy Research\n            \n            \n              \n                \n                                    \n                    \n                      Twitter\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              \n              Welcome\n              Broadly, work in the Social Accuracy Lab examines the\n              process of interpersonal impressions, with a particular\n              emphasis on impressions of stable and global personality\n              traits about both others and the self. Utilizing the\n              Social Accuracy Model (SAM) we are able to explore overall\n              levels and variability in accuracy and bias in\n              impressions, as well as examine various factors that\n              impact these perceptual tendencies\n              \n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2022-06-23T17:20:02-07:00"
+    },
+    {
+      "path": "publications.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-06-22T12:16:04-07:00"
+      "last_modified": "2022-06-23T17:20:03-07:00"
+    },
+    {
+      "path": "research.html",
+      "title": "Research",
+      "description": "Some additional details about the blog\n",
+      "author": [],
+      "contents": "\n\n\n\n\nResearch Areas\nHere is some text you want to wrap around the image. Here is some\ntext that should be included, more than one line … lorem ipsum when in\nthe course of human events fourscore years and ten because I said so.\n(Not long enough to demonstrate wrapping?)\n\nAccuracy and Bias\nWe are currently examining the overall levels, variability, and the\ninterrelationships between multiple forms of accuracy and bias. Although\naccuracy and biases such as assumed similarity and self-enhancement have\nlong research histories, rarely have these processes been studied\nsimultaneously, nor have there been adequate techniques to directly\ncompare the variability and relationships between these processes.\nUtilizing SAM, we are able to examine the extent to which bias and\naccuracy are interrelated or opposing processes, and whether the two\nself-focused biases of assumed similarity and self-enhancement are\nderived from overlapping or independent mechanisms (Biesanz & Human,\n2012).\nMotivation\nWe have also been exploring whether social goals, such as the\nmotivation to form more accurate impressions, can improve the accuracy\nof impressions. Indeed, it does appear that motivated perceivers are\nbetter able to perceive the unique characteristics of others. This comes\nat the cost, however, of viewing others less normatively, and, in turn,\nless positively (Biesanz & Human, 2010). We are currently further\nexploring the links between normative accuracy, positivity, and social\nrelationships, to better understand the implications of this reduction\nin normative accuracy.\nAdjustment\nOne major line of research in our lab investigates how well-adjusted\nindividuals, those with effective personal and interpersonal\nfunctioning, perceive others and tend to be perceived by others. Our key\nfinding is that well-adjusted persons tend to view others with greater\nnormative accuracy but also with greater bias, specifically assumed\nsimilarity (Human & Biesanz, 2010). Building upon these findings we\nare currently investigating causal pathways to determine the extent to\nwhich adjustment is a cause and/or effect of these perceptual\nprocesses.\nThe Structure of Personality\nAnother key line of research investigates the stability of\npersonality over time and across situations, and how such stability is\nrelated to the accuracy of others’ impressions (Biesanz, West, &\nGraziano, 1997; Biesanz & West, 2000). Additionally, we are\nutilizing Multitrait-Multimethod (MTMM) techniques to examine the\nstructure of personality (Biesanz & West, 2004).\nAcquaintanceship\nAnother line of research has investigated whether accuracy improves\nwith greater acquaintanceship. That is, do we come to know others better\nthe longer we know them? Although overall accuracy doesn’t appear to\nimprove over time, this is because with greater acquaintanceship\ndistinctive accuracy increases but normative accuracy decreases\n(Biesanz, Millevoi, & West, 2007). Thus the longer we know someone,\nwe better understand their unique characteristics while perceiving them\nas less similar to what people are like in general. To replicate this\nfinding longitudinally, we are currently examining how new roommates’\nimpressions of one another change over time.\nImpression Management\nEven without any deliberate effort on our part, others are able to\nform rather accurate impressions about us. But what about when we try to\nmake a specific impression on others? One of our lines of research is\nexamining how self-presentation, or “putting one’s best face forward”,\nimpacts the accuracy of impressions. So far, we have found that\nindividuals’ engaging in self-presentation are actually more accurately\nperceived than those who are not, primarily because they appear to\nelicit greater attention from others (Human, Biesanz, Parisotto &\nDunn, 2012).\n\n\n\n",
+      "last_modified": "2022-06-23T17:20:04-07:00"
+    },
+    {
+      "path": "social-accuracy-model.html",
+      "title": "Social Accuracy Model",
+      "description": "A short description of the post.\n",
+      "author": [
+        {
+          "name": "Jeremy Biesanz",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "2022-06-22",
+      "contents": "\nDistill is a publication format for scientific and technical writing,\nnative to the web. (Biesanz,\n2021)\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\nBiesanz, J. C. (2021). The social accuracy model. In T. D. Letzring\n& J. S. Spain (Eds.), The Oxford handbook of\naccurate personality judgment (pp. 61–82). Cambridge University\nPress. https://doi.org/10.1093/oxfordhb/9780190912529.013.5\n\n\n\n\n",
+      "last_modified": "2022-06-23T17:20:06-07:00"
+    },
+    {
+      "path": "team.html",
+      "title": "Team Members",
+      "description": "Some additional details about the members of the Social Accuracy Research Team",
+      "author": [],
+      "contents": "\nDr. Jeremy Biesanz\nI have developed and pursued several lines of research in personality\nand person perception and quantitative methodology. The broad\nsubstantive questions that interest me include how and why do\nindividuals differ in the expression of their personality? What impact\ndoes this have on the social perception of personality - the impressions\nthat others form? When we form impressions, what is the impact of our\nown expectations and motivations? Is there a good judge of personality?\nIn other words, are some people better able to see the personality of\nothers? Although these are the substantive questions I am pursuing, the\nlack of adequate quantitative methodology has hampered research in these\nareas.\n\n\n\nJessica Stewart\nJessica is a PhD Candidate in the Health Psychology area interested\nin personality, interpersonal perception, expressive writing and their\nrelation with health. Her research focuses on understanding who is\nlikeable, what makes someone likeable, and the long-term consequences of\nbeing liked by others.\n\n\n\n\n\n\n",
+      "last_modified": "2022-06-23T17:20:06-07:00"
     }
   ],
   "collections": ["posts/posts.json"]

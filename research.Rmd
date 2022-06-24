@@ -1,0 +1,50 @@
+---
+title: "Research"
+bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
+csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
+description: |
+  Some additional details about the blog
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+:::float-image
+
+```{r out.width='350px', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/researchfigureSAL.jpg")
+```
+
+**Research Areas**
+
+Here is some text you want to wrap around the image. Here is some text that should be included, more than one line ... lorem ipsum when in the course of human events fourscore years and ten because I said so. (Not long enough to demonstrate wrapping?)
+:::
+
+
+
+### Accuracy and Bias
+
+
+We are currently examining the overall levels, variability, and the interrelationships between multiple forms of accuracy and bias. Although accuracy and biases such as assumed similarity and self-enhancement have long research histories, rarely have these processes been studied simultaneously, nor have there been adequate techniques to directly compare the variability and relationships between these processes. Utilizing SAM, we are able to examine the extent to which bias and accuracy are interrelated or opposing processes, and whether the two self-focused biases of assumed similarity and self-enhancement are derived from overlapping or independent mechanisms (Biesanz & Human, 2012).
+
+### Motivation
+
+We have also been exploring whether social goals, such as the motivation to form more accurate impressions, can improve the accuracy of impressions. Indeed, it does appear that motivated perceivers are better able to perceive the unique characteristics of others. This comes at the cost, however, of viewing others less normatively, and, in turn, less positively (Biesanz & Human, 2010). We are currently further exploring the links between normative accuracy, positivity, and social relationships, to better understand the implications of this reduction in normative accuracy.
+
+### Adjustment
+
+One major line of research in our lab investigates how well-adjusted individuals, those with effective personal and interpersonal functioning, perceive others and tend to be perceived by others. Our key finding is that well-adjusted persons tend to view others with greater normative accuracy but also with greater bias, specifically assumed similarity (Human & Biesanz, 2010). Building upon these findings we are currently investigating causal pathways to determine the extent to which adjustment is a cause and/or effect of these perceptual processes.
+
+### The Structure of Personality
+
+Another key line of research investigates the stability of personality over time and across situations, and how such stability is related to the accuracy of others’ impressions (Biesanz, West, & Graziano, 1997; Biesanz & West, 2000). Additionally, we are utilizing Multitrait-Multimethod (MTMM) techniques to examine the structure of personality (Biesanz & West, 2004).
+
+### Acquaintanceship
+
+Another line of research has investigated whether accuracy improves with greater acquaintanceship. That is, do we come to know others better the longer we know them? Although overall accuracy doesn’t appear to improve over time, this is because with greater acquaintanceship distinctive accuracy increases but normative accuracy decreases (Biesanz, Millevoi, & West, 2007). Thus the longer we know someone, we better understand their unique characteristics while perceiving them as less similar to what people are like in general. To replicate this finding longitudinally, we are currently examining how new roommates’ impressions of one another change over time.
+
+### Impression Management
+
+Even without any deliberate effort on our part, others are able to form rather accurate impressions about us. But what about when we try to make a specific impression on others? One of our lines of research is examining how self-presentation, or “putting one’s best face forward”, impacts the accuracy of impressions. So far, we have found that individuals’ engaging in self-presentation are actually more accurately perceived than those who are not, primarily because they appear to elicit greater attention from others (Human, Biesanz, Parisotto & Dunn, 2012).

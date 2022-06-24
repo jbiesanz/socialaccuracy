@@ -1,0 +1,25 @@
+---
+title: Social Accuracy Model
+bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
+csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
+description: |
+  A short description of the post.
+author:
+  - name: Jeremy Biesanz 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: '2022-06-22'
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web. [@Biesanz2021]
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.

@@ -1,12 +1,21 @@
-name: "socialaccuracy"
-title: "Social Accuracy Research"
-description: |
-  Social Accuracy Research
+name: "Social Accuracy Lab"
+title: "Jeremy Biesanz"
+theme: theme.css
+bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
+csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
 output_dir: "docs"
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Team"
+      href: team.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Social Accuracy Model"
+      href: social-accuracy-model.html
 output: distill::distill_article

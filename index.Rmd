@@ -1,5 +1,23 @@
 ---
 title: "Social Accuracy Research"
+image: "images/researchfigureSAL.jpg" 
+bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
+csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
+toc: true
+links:
+  - label: Twitter
+    url: "https://twitter.com/JCBiesanz"
+  - label: GitHub
+    url: "https://github.com/jbiesanz"
+  - label: Email
+    url: "mailto:jbiesanz@mail.ubc.ca"
+output:
+  postcards::trestles
 site: distill::distill_website
-listing: posts
 ---
+
+
+## Welcome
+
+Broadly, work in the Social Accuracy Lab examines the process of interpersonal impressions, with a particular emphasis on impressions of stable and global personality traits about both others and the self. Utilizing the Social Accuracy Model (SAM) we are able to explore overall levels and variability in accuracy and bias in impressions, as well as examine various factors that impact these perceptual tendencies 
+
