@@ -10,6 +10,8 @@ navbar:
       href: BiesanzCV.pdf
     - icon: ai ai-osf fa-lg
       href: https://osf.io/5wkj2/
+    - icon: ai ai-researchgate fa-lg
+      href: https://www.researchgate.net/profile/Jeremy-Biesanz-2
     - icon: ai ai-google-scholar fa-lg
       href: https://scholar.google.ca/citations?user=LnwdmL0AAAAJ&hl=en
     - icon: fab fa-github
