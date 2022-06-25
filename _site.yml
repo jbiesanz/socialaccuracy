@@ -6,6 +6,14 @@ csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
 output_dir: "docs"
 navbar:
   right:
+    - icon: ai ai-cv fa-lg
+      href: BiesanzCV.pdf
+    - icon: ai ai-osf fa-lg
+      href: https://osf.io/5wkj2/
+    - icon: ai ai-google-scholar fa-lg
+      href: https://scholar.google.ca/citations?user=LnwdmL0AAAAJ&hl=en
+    - icon: fab fa-github
+      href: https://github.com/jbiesanz
     - text: "Home"
       href: index.html
     - text: "Blog"
@@ -16,6 +24,10 @@ navbar:
       href: research.html
     - text: "Publications"
       href: publications.html
-    - text: "Social Accuracy Model"
+    - text: "SAM"
       href: social-accuracy-model.html
-output: distill::distill_article
+output:
+  distill::distill_article:
+    includes:
+      in_header:
+      - header.html
