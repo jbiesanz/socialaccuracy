@@ -1,7 +1,7 @@
 ---
-title: "Team Members"
+title: "Research Team"
 description: |
-  Some additional details about the members of the Social Accuracy Research Team
+  We are a relatively small research team but are always welcome those who are interested in personality, person perception, and/or quantitative methods.
 ---
 
 ```{r setup, include=FALSE}
