@@ -48,12 +48,12 @@ Even without any deliberate effort on our part, others are able to form rather a
 
 ### Quantitative Methods and Research
 
-My current quantitative research is quite diverse with the unifying theme of focusing on topics that require additional attention --- in other words, building better quantitative tools for common problems faced by applied researchers. Recent examples include (1) novel approaches to examining mediational models [@Biesanz2010Mediation; @falk2015inference; @falk2016two], (2) sample size planning based on effect size estimates (in progress), and (3) generating confidence intervals for standardized effect size estimates based on both fixed and random predictors (in progress). Currently I am in the process of developing and expanding a package for R [fabs](https://github.com/jbiesanz/fabs) that will serve as a repository of my quantitative work and code for these various endeavours.
+My current quantitative research is quite diverse with the unifying theme of focusing on topics that require additional attention --- in other words, building better quantitative tools for common problems faced by applied researchers. Recent examples include (1) novel approaches to examining mediational models [@Biesanz2010Mediation; @falk2015inference; @falk2016two], (2) sample size planning based on effect size estimates (in progress), and (3) generating confidence intervals for standardized effect size estimates based on both fixed and random predictors (in progress). Currently I am in the process of developing and expanding a package for R [fabs](https://github.com/jbiesanz/fabs) that will serve as a repository of my quantitative work and code for these various endeavours. [fabs](https://github.com/jbiesanz/fabs) is currently available on github and will soon be submitted as a package on CRAN.
 
 <aside>
 To install fabs, download the `devtools` package in R and then run the following code:
 
 <span style="color: blue;">library</span>(devtools)\
 install_github("<span style="color: green;">jbiesanz/fabs</span>")\
-<span style="color: blue;">library</span>(fabs)`
+<span style="color: blue;">library</span>(fabs)
 </aside>
