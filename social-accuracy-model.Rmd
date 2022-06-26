@@ -1,15 +1,12 @@
 ---
-title: Social Accuracy Model
+title: Social Accuracy Model (SAM)
 bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
 csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
 description: |
-  A short description of the post.
+  A "brief" overview of SAM based on @Biesanz2021.
 author:
   - name: Jeremy Biesanz 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: '2022-06-22'
+date: '2022-06-26'
 output:
   distill::distill_article:
     self_contained: false
@@ -20,6 +17,54 @@ draft: false
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web. [@Biesanz2021]
+The social accuracy model (SAM) is a model that estimates individual differences in aspects of interpersonal perception. SAM is a componential model of accuracy breaks assessments of accuracy into different elements (components) that have specific and hopefully useful interpretations. Perceiver and target effects refer to estimates of accuracy components for each perceiver (averaged across targets) and each target (averaged across perceivers) and are analogous to main effects in ANOVA. Dyadic effects are simply the residual effect that is left over for each dyad after accounting for the perceiver and target average effects. For instance, Percy may have a large perceiver effect in that she is generally accurate in her perceptions of the personality of others and thus high in perceptive accuracy. Taylor may have a large target effect is is generally perceived accurately by others.
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+<aside>
+A copy of Biesanz (2021) along with annotated R code and data can be found on [OSF](https://osf.io/96t8f/).
+</aside>
+
+Conceptually, SAM represents an integration of Cronbach’s [-@cronbach1955] componential approach to assessing accuracy with Kenny’s [@kenny1984; @kenny1994] social relations model.  To do this, SAM adopts Funder’s [-@funder1995] realistic accuracy model (RAM) for modeling accuracy in that the goal is to assess the validity of the perceiver's impressions. Initial elements of SAM can be seen in earlier work [e.g., @biesanz1998moderators; @biesanz2000; @biesanz2007] that adapted Cronbach’s components of accuracy. @biesanz2010SAM provided the first overview of the social accuracy model as a general model that can provide answers to questions, such as those raised in @funder1995, that cannot be addressed through other frameworks or models. Since then, SAM has been used extensively to examine many different research questions in our lab as well as by others.
+
+
+### The Basic Social Accuracy Model
+
+<aside>
+For a brief and gentle introduction to multilevel models see the lecture notes and code from the APS [multilevel workshop](https://osf.io/82yrb/) I conducted in 2019.
+</aside>
+
+There are only two measures that are needed for the social accuracy model: perceiver ratings/impressions of the target and target validity measures. These measures are needed for a set of different items or traits. Larger sets of items and more items will produce more reliable results. In Equation \@ref(eq:equation1), perceiver ratings are $Y_{pti}$ which indicate perceiver $p$'s ratings of target $t$ on item $i$. The target validity measure for target $t$ on item $i$ is $V_{ti}$. Validity measures should be as reliable as possible (e.g., averaged across multiple sources such as peer and self-reports). These are the only two assessments that are needed for a social accuracy model analysis. However, to conduct the analysis requires separating out the validity measure into two different components --- the average person's validity measure and how different the target is from the average person. First, the average validity measure across targets is determined for each item $(Vmean_{i}= {\bar{V}}_i)$ by calculating the mean for each item across the $t$ targets on $V_{ti}$. This provides the mean validity profile which is the profile of the average target. The validity profile of the average target, $Vmean_{i}$, is then used to center the target validity measure *within items* by calculating $Vc_{ti} = V_{ti} - Vmean_{i}$. The centered validity measures for each target and the average validity profile are then used to predict the perceivers' ratings as shown in Equation \@ref(eq:equation1). All that is required to actually estimate Equation \@ref(eq:equation1) is a research design where multiple perceivers evaluate multiple targets across a large set of items. This could be a round-robin design where each perceiver meets and evaluates every target, a half-block design where a set of perceivers all evaluate a common set of targets (e.g., all of the perceivers watch and evaluate the same 10 targets in videos), or various hybrids of these designs. Formally this is a crossed-random effects model and can be estimated with standard multilevel model software.
+
+
+\begin{equation}
+Y_{pti} = \gamma_{0_{pt}} + \gamma_{1_{pt}}Vc_{ti} + \gamma_{2_{pt}}Vmean_{i} + e_{pti}
+  (\#eq:equation1)
+\end{equation}
+
+\begin{equation}
+\begin{split}
+\gamma_{0_{pt}} = \gamma_{00} + u_{0_p} + u_{0_t} + u_{0_{(pt)}}\\
+\gamma_{1_{pt}} = \gamma_{10} + u_{1_p} + u_{1_t} + u_{1_{(pt)}}\\
+\gamma_{2_{pt}} = \gamma_{20} + u_{2_p} + u_{2_t} + u_{2_{(pt)}}
+\end{split}
+  (\#eq:equation2)
+\end{equation}
+
+Equation \@ref(eq:equation1) provides the full social accuracy model which is simply a two-predictor regression equation: validity measures, centered within item, and the average target validity profile are used to predict perceiver impressions. The unstandardized regression coefficients from this two-predictor regression equation, denoted by gamma (e.g., $\gamma_{0}$, $\gamma_{1}$, and $\gamma_{2}$) as is the common notational practice for multilevel models, can vary across perceivers, targets, and dyads, and are captured by the $u$s in Equation \@ref(eq:equation2). 
+
++ **Fixed Effects.** The fixed effects represent the average relationship across perceivers and targets. These coefficients represent the (weighted) average two-predictor regression model coefficients across perceivers and targets. Specifically, given the grand mean centering of both validity measures:
+    + $\hat{\gamma}_{00}$ is the predicted rating at the mean validity measure for the average personality item. This is often not of substantive import.
+    + $\hat{\gamma}_{10}$ is the average distinctive accuracy slope across perceivers and targets and items. This estimates the average relationship between how the target *t* is different from the average person on the validity measures across a series of traits and perceiver *p*'s impressions of the target on those same traits. Distinctive accuracy assesses the perceiver's ability to accurately recognize the unique characteristics of the target. In other words, on average in the present sample, how accurate was this group of perceivers in recognizing the unique traits of this group of targets?
+    + $\hat{\gamma}_{20}$ is the average normative accuracy slope across perceivers and targets. This estimates the average relationship between the average target on the validity measures across a series of traits and the perceiver's impressions of the target on those same dimensions. In other words, on average in the present sample, how accurate was this group of perceivers in recognizing the average target’s personality? This represents a blend of positivity as well as normative knowledge and recent work has shown that these represent different effects and processes [@rogers2015; @Wessels2020]. SAM can easily be extended by separating out normativity and positivity in the modeling process by simply adding the social desirability of each personality trait (item) into the model.
+
++ **Random Effects.** The random effects represent variability attributable to perceiver, targets, and dyads around the fixed effects. For instance, $\hat{\tau}_{1_t}$ represents the standard deviation in distinctive accuracy --- good target scores $(u_{1_t})$ --- after adjusting for sampling variability. These random effects are one of the core elements of SAM as they represent *estimates* of the extent to which people differ from each other in their ability to form accurate impressions of each other as well as be accurately seen by others. Potential moderators (i.e., correlates) of these individual differences can be added to Equation \@ref(eq:equation2) to better understand who more accurately perceives others and who is more accurately perceived.
+
+<aside>
+Tests for random effects can be made by examining the difference in model fits with a restricted model where that specific random effect is removed from the model. This results in a $\chi^2$-test whose $p$-value should be halved as tests of random variances are one-tailed [see @west2011, p. 29 for more discussion of this specific issue]. However, regardless of the results of null hypothesis significance tests, random effects should be included in the model to maintain appropriate Type I error rates and to allow the ability to generalize to the broader population of potential perceivers and targets. For a more detailed discussion of the importance of modeling random effects see @Judd2012.
+</aside>
+
+### Several Common Questions Answered
+
+
+**Why not simple correlations?** To begin with, why are complex models like SAM needed? Can't correlations suffice to examine questions of accuracy? After all, the simple Pearson correlation has been instrumental to the field of personality psychology. Correlations are foundational to factor analysis and efforts to uncover the important dimensions of basic personality traits such as the Big Five [e.g., @john1999]. Simply put, correlational analyses on a single trait --- such as the correlation between self and informant ratings on extraversion --- do not provide the inferential leverage to examine individual differences in interpersonal perception. Such analyses provide a good estimate of the average level of self-other agreement for a single trait, but do not allow any insight into whether some perceivers are better than others, whether some individuals are more accurately perceived than others, or whether some dyads or pairs are more accurate than others. Although it is possible to examine moderators of accuracy --- for instance, to examine whether judges higher in intelligence are more accurate than judges lower in intelligence --- such analyses are indirect and presume both individual differences in the good judge and that intelligence is a good proxy for those individual differences. That is, we would only observe assessments of judges' intelligence moderating accuracy if (a) there are individual differences across judges in their levels of accuracy *and* (b) the judge's level of intelligence is associated with their level of accuracy. Importantly, the absence of moderation does not imply that the good judge does not exist and there are no meaningful individual differences in accuracy across judges. However, to really address this question properly requires a model that allows one to *directly* estimate individual differences in accuracy. This is the \textit{raison d\textquotesingle\^{e}tre} for the social accuracy model. To what extent are there individual differences in the good judge, the good target, and the good pair or dyad? Once these individual or group differences are estimated it becomes easy to examine predictors of these individual differences and understand those results. If these individual differences in the good judge are essentially nil, then there is no point in examining predictors of the good judge. If there are strong individual differences associated with accuracy but proposed moderators are not associated with those individual differences, that simply means our theories and understanding of accuracy and factors associated with accuracy are incomplete and we need to look elsewhere to predict and understand those individual differences. Finally, if there are individual differences in accuracy across perceivers, targets, and/or dyads, failing to appropriately model those individual differences can lead to inflated Type I error rates and an inability to appropriately generalize results [e.g., see @Judd2012].
+
+**SAM is a profile analysis. Isn't this different from trait-level analyses?** Distinctive accuracy is computed as profile agreement across a series of items or traits. However, SAM does not just estimate a single dyad's accuracy but instead considers *all* of the data present across perceivers, targets, and domains of personality. Consequently, the fixed effect for distinctive accuracy ($\hat{\gamma}_{10}$ provides an estimate of the average trait-level accuracy across traits (i.e., the average relationship between the validity measure and perceiver ratings when analyzed separately for each item in the SAM analysis). @kenny2001 and @biesanz2010SAM  note that variable and person-centered analyses provide the same overall summary of the available data. Indeed, @allik2015 provide this mathematical equivalence for correlations, which requires double standardization (both rows and columns). @biesanz2018 provides an empirical demonstration of how the average level of (unstandardized) distinctive accuracy is exactly the same across different units of analysis including trait/item, perceiver, target, and dyad.^[The data, materials, and code in R to reproduce that exact equivalence is archived and available at [https://osf.io/5u6hw/](https://osf.io/5u6hw/). All that is required to see this exact relationship is (1) center the validity scores within target and (2) weight each regression coefficient (slope) by the variance of the predictor (the variance of the validity measures for each target) to give each coefficient the same weight when computing the average.] In short, a profile analysis such as SAM provides one with an estimate of the average level of accuracy observed across perceivers, targets, and traits.

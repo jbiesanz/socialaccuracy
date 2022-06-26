@@ -1,25 +1,26 @@
 ---
-title: "Social Accuracy Research"
+title: "Social Accuracy"
 image: "images/researchfigureSAL.jpg" 
 bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
 csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
 toc: true
+urlcolor: DarkBlue
 links:
-  - label: Twitter
-    url: "https://twitter.com/JCBiesanz"
-  - label: GitHub
-    url: "https://github.com/jbiesanz"
   - label: Email
     url: "mailto:jbiesanz@mail.ubc.ca"
+  - label: OSF
+    url: "https://osf.io/5wkj2/"
+  - label: GitHub
+    url: "https://github.com/jbiesanz"
 output:
   postcards::trestles
 site: distill::distill_website
 ---
 
 
-## Welcome
+### Welcome
 
-The Social Accuracy Lab examines the process of *how*, *when*, and *why* one forms more or less accurate impressions of others using the Social Accuracy Model (SAM; Biesanz, 2010). SAM is a componential model of interpersonal perception that estimates perceiver, target, and dyadic effects of different components of accuracy across traits simultaneously. For instance Jane may be generally accurate in her perceptions of others and thus high in perceptive accuracy --- the extent to which a particular perceiver’s impressions are more or less accurate than other perceivers on average across different targets. Just as well, Jake may be accurately perceived by others and thus high in expressive accuracy --- the extent to which a particular target is accurately perceived on average across different perceivers. We study  overall levels and variability in accuracy and bias in impressions, as well as examine various factors that impact these perceptual tendencies.
+The Social Accuracy Lab examines the process of *how*, *when*, and *why* one forms more or less accurate impressions of others using the Social Accuracy Model [(SAM)](https://socialaccuracy.com/social-accuracy-model.html). SAM is a componential model of interpersonal perception that estimates perceiver, target, and dyadic effects of different components of accuracy across traits simultaneously. For instance Jane may be generally accurate in her perceptions of others and thus high in perceptive accuracy --- the extent to which a particular perceiver’s impressions are more or less accurate than other perceivers on average across different targets. Just as well, Jake may be accurately perceived by others and thus high in expressive accuracy --- the extent to which a particular target is accurately perceived on average across different perceivers. We study  overall levels and variability in accuracy and bias in impressions, as well as examine various factors that impact these perceptual tendencies.
 
 In parallel with our work in accuracy and personality, we also examine questions and issues related to quantitative methodology. This may include developing tools like SAM to address questions not previously posed by the field. Alternatively, this may include work on developing better tools to help substantive researchers plan, report, and understand their data.
 
