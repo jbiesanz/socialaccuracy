@@ -7,7 +7,7 @@ output_dir: "docs"
 navbar:
   right:
     - icon: ai ai-cv fa-lg
-      href: file:BiesanzCV.pdf
+      href: https://github.com/jbiesanz/socialaccuracy/raw/main/BiesanzCV.pdf
     - icon: ai ai-osf fa-lg
       href: https://osf.io/5wkj2/
     - icon: ai ai-researchgate fa-lg
