@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 description: |
-  Selected recent Social Accuracy Lab research
+  Selected recent Social Accuracy Lab research. See [<i class="ai ai-cv-square ai-1x"></i>](https://github.com/jbiesanz/socialaccuracy/raw/main/BiesanzCV.pdf) for a complete listing.
 bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
 csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
 ---
