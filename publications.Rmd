@@ -1,9 +1,33 @@
 ---
-title: "About this blog"
+title: "Publications"
 description: |
-  Some additional details about the blog
+  Selected recent Social Accuracy Lab research
+bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
+csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
+@Wallace2021
+
+>Good targets are those individuals who are seen more accurately than others. The present study examines the extent to which the good target is consistent across two domains and two contexts as well as how being perceived accurately is moderated by target well-being. We found support for the theory that the good target generalizes across both contexts and domains and also found evidence for a likable target. Target well-being was not consistently associated with the good target across contexts and domains, though target well-being was a consistent moderator for the likable target.
+
+@Wessels2020
+
+>A great range of person perception phenomena may be conceptualized in terms of how much perceivers know about the targets, how much they like the targets, and how these factors relate to the extent to which target descriptions reflect actual target characteristics and/or evaluative bias. Using multilevel profile analyses, we investigated how liking and knowing are differentially associated with judgments’ normative accuracy (i.e., reflecting actual characteristics of the average target), distinctive accuracy (i.e., reflecting actual characteristics of specific targets), and positivity bias. Despite being positively correlated with one another, liking and knowing had opposing effects on person judgments: Knowing targets better was associated with greater distinctive and normative accuracy, and with lower positivity bias. In contrast, liking targets more was associated with lower distinctive and normative accuracy, but with greater positivity bias. The findings suggest that person judgments tend to reflect actual target characteristics as well as evaluative bias.
+
+@rogersbiesanz2019
+
+ >Are some people truly better able to accurately perceive the personality of others? Previous research suggests that the good judge may be of little practical importance and individual differences minimal. In four large samples we assessed whether expressive accuracy (the good target) is a necessary condition for perceptive accuracy (the good judge) to emerge. As predicted from Funder’s (1995) realistic accuracy model, assessments of the good judge predicted increased impression accuracy in the context of judgments of the good target. The present results suggest the good judge does indeed exist—some individuals are much better able to detect and utilize valid cues from targets—but this is only strongly evident when perceiving a good target.
+
+@magee2018wellbeing
+
+>Although there is a robust connection between dispositional personality traits and well-being, relatively little research has comprehensively examined the ways in which all Big Five personality states are associated with short-term experiences of well-being within individuals. We address three central questions about the nature of the relationship between personality and well-being states: First, to what extent do personality and well-being states covary within individuals? Second, to what extent do personality and well-being states influence one another within individuals? Finally, are these within-person relationships moderated by dispositional personality traits and well-being?
+Across two experience sampling studies, all Big Five personality states were correlated with short-term experiences of well-being within individuals. Individuals were more extraverted, emotionally stable, conscientious, agreeable, and open in moments when they experienced higher well-being (greater self-esteem, life satisfaction and positive affect, and less negative affect). Moreover, personality and well-being states dynamically influenced one another over time within individuals, and these associations were not generally moderated by dispositional traits or well-being. In short, behavior and well-being are interconnected within the context of the Big Five model of personality.
+
+@rogers2015
+
+>There are strong differences between individuals in the tendency to view the personality of others as similar to the average person. That is, some people tend to form more normatively accurate impressions than do others. Individuals may achieve high normative accuracy by viewing others as similar to the average person or by viewing them in an overly socially desirable manner. The average self-reported personality profile and social desirability, despite being strongly correlated, independently and strongly predict first impressions. Further, some individuals have a more accurate understanding of the average individual’s personality than do others. Perceivers with more accurate knowledge about the average individual’s personality rated the personality of specific others more normatively accurately (more similar to the average person), suggesting that individual differences in normative judgments include a component of accurate knowledge regarding the average personality. In contrast, perceivers who explicitly evaluated others more positively formed more socially desirable impressions, but not more normatively accurate impressions.

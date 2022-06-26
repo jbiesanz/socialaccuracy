@@ -9,8 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-**Dr. Jeremy Biesanz**
-
+**Dr. Jeremy Biesanz**\
 I have developed and pursued several lines of research in personality and person perception and quantitative methodology. The broad substantive questions that interest me include how and why do individuals differ in the expression of their personality? What impact does this have on the social perception of personality - the impressions that others form? When we form impressions, what is the impact of our own expectations and motivations? Is there a good judge of personality? In other words, are some people better able to see the personality of others? Although these are the substantive questions I am pursuing, the lack of adequate quantitative methodology has hampered research in these areas.
 
 <aside>
@@ -19,12 +18,9 @@ knitr::include_graphics("images/Jeremy Biesanz.jpg")
 ```
 </aside>
 
-
-
 --------
 
-**Jessica Stewart**
-
+**Jessica Stewart**\
 Jessica is a PhD Candidate in the Health Psychology area interested in personality, interpersonal perception, expressive writing and their relation with health. Her research focuses on understanding who is likeable, what makes someone likeable, and the long-term consequences of being liked by others. 
 
 <aside>
@@ -32,3 +28,12 @@ Jessica is a PhD Candidate in the Health Psychology area interested in personali
 knitr::include_graphics("images/Jessica Wallace.jpg")
 ```
 </aside>
+
+--------
+
+**Malina Lemmons**
+
+
+--------
+
+**Raymond Li**
