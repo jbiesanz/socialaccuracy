@@ -1,0 +1,33 @@
+---
+title: "Distill Website Tips and Notes"
+description: |
+  A collection of tips and resources that document what I did to make this website.
+author:
+  - name: Jeremy Biesanz
+date: 2022-06-27
+draft: TRUE
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**How to make your external links open in a new window**
+
+Credit is due to Abdessabour Mtk on stackoverflow who provided the [solution](https://stackoverflow.com/questions/56797898/rmarkdown-html-site-yml-navbar-href-links-open-in-new-tab-with-target-blank).
+
+1. Create a `links.js` file in your main folder with this code
+```{r, eval=FALSE, echo=TRUE}
+(function() {
+  for (const link of document.getElementsByTagName('a')) {
+    if (/^(https?:)?\/\//.test(link.getAttribute('href'))) link.target = '_blank';
+  }
+})();
+```
+
+2. Create a `include_footer.html` file in your main folder with this code.
+`<script type="text/javascript" src="links.js"></script>`

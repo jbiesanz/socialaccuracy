@@ -33,3 +33,4 @@ output:
     includes:
       in_header:
       - header.html
+      after_body: include_footer.html
