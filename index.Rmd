@@ -1,6 +1,6 @@
 ---
 title: "Social Accuracy"
-image: "images/researchfigureSAL.jpg" 
+image: "images/JeremyBiesanz.jpg" 
 bibliography: /Users/jbiesanz/Dropbox/Professional/Bibtex/jabref.bib
 csl: /Users/jbiesanz/Dropbox/Professional/Bibtex/apa.csl
 toc: true

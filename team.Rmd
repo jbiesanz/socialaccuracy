@@ -31,9 +31,30 @@ knitr::include_graphics("images/Jessica Wallace.jpg")
 
 --------
 
-**Malina Lemmons**
+**Malina Lemmons**\
+Malina is a new MA student in Quantitative Psychology, with interests in best practices in research. Her research focuses on power analysis and sample size planning. 
+
+
+<aside>
+```{r , echo=FALSE}
+knitr::include_graphics("images/Malina Lemmons.jpg")
+```
+</aside>
 
 
 --------
 
 **Raymond Li**
+
+--------
+
+**Lab Alumni**
+
++ [Dr. Lauren Human](https://laurenhuman.com/)
++ [Dr. Katherine Rogers](https://www.zillow.com/research/about-us/kate-rogers/)
++ [Dr. Meanne Chan](https://www.ln.edu.hk/wjlccprc/professor-meanne-chan)
++ [Dr. Marina Le](https://www.psychologists.bc.ca/user/38128)
++ [Carly Magee](https://socialexposome.ubc.ca/people/trainees/carly-magee)
++ [Sam Kristen Can](https://ca.linkedin.com/in/samkristencan?original_referer=https%3A%2F%2Fwww.google.com%2F)
+
+
