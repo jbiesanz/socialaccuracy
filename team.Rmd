@@ -32,7 +32,7 @@ knitr::include_graphics("images/Jessica Wallace.jpg")
 --------
 
 **Malina Lemmons**\
-Malina is a new MA student in Quantitative Psychology, with interests in best practices in research. Her research focuses on power analysis and sample size planning. 
+Malina is a new MA student in Quantitative Psychology starting in Fall 2022 with interests in best practices in research. Her research focuses on power analysis and sample size planning. 
 
 
 <aside>
