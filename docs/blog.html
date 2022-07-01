@@ -107,7 +107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["Blog"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing","theme"]}},"value":[{"type":"character","attributes":{},"value":["Blog"]},{"type":"character","attributes":{},"value":["posts"]},{"type":"character","attributes":{},"value":["theme.css"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2211,10 +2211,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
     --hover-color:      white;
     --bkgd-color:       #002145;
-  }
+      z-index: 1;
+      margin-top: 5px;
+      padding-top: 10px;
+      padding-bottom: 3px;
+    --font-size: 12px;}
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
@@ -2635,7 +2638,7 @@ Jeremy Biesanz. Created using Distill for R Markdown in RStudio.</p>
     var t = setInterval(function(){
       var resizeEvent = new Event('resize');
       window.dispatchEvent(resizeEvent);  
-    }, 1000);
+    }, 1);
  
     
   });

@@ -2214,10 +2214,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
     --hover-color:      white;
     --bkgd-color:       #002145;
-  }
+      z-index: 1;
+      margin-top: 5px;
+      padding-top: 10px;
+      padding-bottom: 3px;
+    --font-size: 12px;}
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
@@ -2540,7 +2543,7 @@ Jeremy Biesanz. Created using Distill for R Markdown in RStudio.</p>
     var t = setInterval(function(){
       var resizeEvent = new Event('resize');
       window.dispatchEvent(resizeEvent);  
-    }, 1000);
+    }, 1);
  
     
   });
