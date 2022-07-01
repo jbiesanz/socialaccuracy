@@ -24,3 +24,15 @@ The Social Accuracy Lab examines the process of *how*, *when*, and *why* one for
 
 In parallel with our work in accuracy and personality, we also examine questions and issues related to quantitative methodology. This may include developing tools like SAM to address questions not previously posed by the field. Alternatively, this may include work on developing better tools to help substantive researchers plan, report, and understand their data.
 
+\
+\
+\
+\
+
+
+
+Jeremy Biesanz Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+Created using Distill for R Markdown in RStudio.<br>
+Art by Sasha Biesanz
+
+
